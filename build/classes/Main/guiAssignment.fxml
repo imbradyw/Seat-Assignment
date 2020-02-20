@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="523.0" prefWidth="331.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.guiAssignmentController">
+   <children>
+      <Label fx:id="lblteacher" layoutX="101.0" layoutY="28.0" prefHeight="53.0" prefWidth="129.0" style="-fx-background-color: BLUE;" text="Teacher" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Pane id="paneseat_01" fx:id="paneseat_01" layoutX="45.0" layoutY="98.0" prefHeight="53.0" prefWidth="56.0" style="-fx-background-color: black;" />
+      <Pane id="paneseat_02" fx:id="paneseat_02" layoutX="138.0" layoutY="98.0" prefHeight="53.0" prefWidth="56.0" style="-fx-background-color: black;" />
+      <Pane id="paneseat_03" fx:id="paneseat_03" layoutX="230.0" layoutY="98.0" prefHeight="53.0" prefWidth="56.0" style="-fx-background-color: black;" />
+      <Pane id="paneseat_04" fx:id="paneseat_04" layoutX="45.0" layoutY="179.0" prefHeight="53.0" prefWidth="56.0" style="-fx-background-color: black;" />
+      <Pane id="paneseat_05" fx:id="paneseat_05" layoutX="139.0" layoutY="179.0" prefHeight="53.0" prefWidth="56.0" style="-fx-background-color: black;" />
+      <Pane id="paneseat_06" fx:id="paneseat_06" layoutX="230.0" layoutY="179.0" prefHeight="53.0" prefWidth="56.0" style="-fx-background-color: black;" />
+      <Pane id="paneseat_07" fx:id="paneseat_07" layoutX="45.0" layoutY="261.0" prefHeight="53.0" prefWidth="56.0" style="-fx-background-color: black;" />
+      <Pane id="paneseat_08" fx:id="paneseat_08" layoutX="139.0" layoutY="261.0" prefHeight="53.0" prefWidth="56.0" style="-fx-background-color: black;" />
+      <Pane id="paneseat_09" fx:id="paneseat_09" layoutX="230.0" layoutY="261.0" prefHeight="53.0" prefWidth="56.0" style="-fx-background-color: black;" />
+      <Button id="btnadd_student" fx:id="btnadd_student" layoutX="126.0" layoutY="438.0" mnemonicParsing="false" onAction="#addStudentButton" text="Add Student" />
+      <Label id="lblseat_01" fx:id="lblseat_01" layoutX="55.0" layoutY="151.0" text="EMPTY" />
+      <Label id="lblseat_02" fx:id="lblseat_02" layoutX="147.0" layoutY="151.0" text="EMPTY" />
+      <Label id="lblseat_03" fx:id="lblseat_03" layoutX="240.0" layoutY="151.0" text="EMPTY" />
+      <Label id="lblseat_04" fx:id="lblseat_04" layoutX="55.0" layoutY="232.0" text="EMPTY" />
+      <Label id="lblseat_05" fx:id="lblseat_05" layoutX="149.0" layoutY="232.0" text="EMPTY" />
+      <Label id="lblseat_06" fx:id="lblseat_06" layoutX="240.0" layoutY="232.0" text="EMPTY" />
+      <Label id="lblseat_07" fx:id="lblseat_07" layoutX="55.0" layoutY="314.0" text="EMPTY" />
+      <Label id="lblseat_08" fx:id="lblseat_08" layoutX="149.0" layoutY="314.0" text="EMPTY" />
+      <Label id="lblseat_09" fx:id="lblseat_09" layoutX="240.0" layoutY="314.0" text="EMPTY" />
+      <Label id="lblstudent_name" fx:id="lblstudent_name" layoutX="59.0" layoutY="362.0" text="Student Name" />
+      <Label id="lblstudent_color" fx:id="lblstudent_color" layoutX="61.0" layoutY="397.0" text="Student Color" />
+      <TextField id="txtstudent_name" fx:id="txtfldstudent_name" layoutX="149.0" layoutY="358.0" />
+      <ColorPicker fx:id="color_picker" layoutX="149.0" layoutY="393.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label fx:id="lblname_error" layoutX="14.0" layoutY="471.0" textFill="RED" />
+      <Label fx:id="lblcolor_error" layoutX="14.0" layoutY="488.0" textFill="RED" />
+   </children>
+</AnchorPane>
